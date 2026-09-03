@@ -19,15 +19,24 @@
     <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
     <nav class="nav">
         <a href="index.html" class="nav-link">Home</a>
-        <a href="research.html" class="nav-link">Research</a>
+        <div class="nav-item">
+          <a href="research.html" class="nav-link">Research</a>
+          <div class="nav-dropdown">
+            <div class="nav-dropdown-label">Current Projects</div>
+            <a href="research/long-covid.html" class="nav-dropdown-link">Long COVID</a>
+            <a href="research/dfc.html" class="nav-dropdown-link">Dynamic Functional Connectivity</a>
+            <div class="nav-dropdown-label">Past Projects</div>
+          </div>
+        </div>
         <a href="people.html" class="nav-link is-active" aria-current="page">People</a>
         <a href="publications.html" class="nav-link">Publications</a>
+        <a href="news.html" class="nav-link">News</a>
         <a href="contact.html" class="nav-link">Contact</a>
     </nav>
   </div>
 </header>
 <main class="section container">
-  <h1 class="page-title">The Team</h1>
+  <h1 class="page-title mb-md">The Team</h1>
 
   <div class="director">
     <div class="img-slot director-photo" data-label="Director photo"><img src="images/dk-dir.jpg" alt="Director photo" onerror="this.style.display='none'"></div>
@@ -35,72 +44,18 @@
       <div class="kicker accent">Director</div>
       <h2 class="director-name">Georgios D. Mitsis</h2>
       <div class="director-role">Associate Professor &amp; William Dawson Scholar · McGill University</div>
-      <p class="director-bio">Georgios leads the Biosignals &amp; Systems Analysis Lab, working at the intersection of systems engineering and physiology. His research develops nonlinear, data-driven modelling methods and applies them to cerebral hemodynamics, computational oncology and glucose regulation. <span class="faint-note">(edit this bio)</span></p>
+      <p class="director-bio">Georgios Mitsis leads the Biosignals &amp; Systems Analysis Lab, working at the intersection of systems engineering and physiology. His research develops nonlinear, data-driven modelling methods and applies them to cerebral hemodynamics, computational oncology and glucose regulation. <span class="faint-note">(edit this bio)</span></p>
       <div class="btn-row"><a href="contact.html" class="pill">Contact</a><a href="#" class="ghost">CV (add link)</a></div>
     </div>
   </div>
 
   <h2 class="section-title sub-h2">Current Members</h2>
-  <div class="member-list">
-    <div class="reveal member-row">
-      <div class="img-slot member-photo" data-label="Photo"><img src="images/dk-m1.jpg" alt="Photo" onerror="this.style.display='none'"></div>
-      <div class="member-body">
-        <h3 class="member-name">Member Name</h3>
-        <div class="member-role">Postdoctoral Fellow</div>
-        <p class="member-interest">Cerebral autoregulation & time-varying modelling.</p>
-      </div>
-    </div>
-    <div class="reveal member-row">
-      <div class="img-slot member-photo" data-label="Photo"><img src="images/dk-m2.jpg" alt="Photo" onerror="this.style.display='none'"></div>
-      <div class="member-body">
-        <h3 class="member-name">Member Name</h3>
-        <div class="member-role">PhD Candidate</div>
-        <p class="member-interest">Physiological noise in resting-state fMRI.</p>
-      </div>
-    </div>
-    <div class="reveal member-row">
-      <div class="img-slot member-photo" data-label="Photo"><img src="images/dk-m3.jpg" alt="Photo" onerror="this.style.display='none'"></div>
-      <div class="member-body">
-        <h3 class="member-name">Member Name</h3>
-        <div class="member-role">PhD Candidate</div>
-        <p class="member-interest">Tumour-growth modelling & optimal control.</p>
-      </div>
-    </div>
-    <div class="reveal member-row">
-      <div class="img-slot member-photo" data-label="Photo"><img src="images/dk-m4.jpg" alt="Photo" onerror="this.style.display='none'"></div>
-      <div class="member-body">
-        <h3 class="member-name">Member Name</h3>
-        <div class="member-role">PhD Student</div>
-        <p class="member-interest">Data-driven models of glucose metabolism.</p>
-      </div>
-    </div>
-    <div class="reveal member-row">
-      <div class="img-slot member-photo" data-label="Photo"><img src="images/dk-m5.jpg" alt="Photo" onerror="this.style.display='none'"></div>
-      <div class="member-body">
-        <h3 class="member-name">Member Name</h3>
-        <div class="member-role">MSc Student</div>
-        <p class="member-interest">Nonlinear system identification methods.</p>
-      </div>
-    </div>
-    <div class="reveal member-row">
-      <div class="img-slot member-photo" data-label="Photo"><img src="images/dk-m6.jpg" alt="Photo" onerror="this.style.display='none'"></div>
-      <div class="member-body">
-        <h3 class="member-name">Member Name</h3>
-        <div class="member-role">Research Assistant</div>
-        <p class="member-interest">Signal processing & EEG analysis.</p>
-      </div>
-    </div>
+  <div class="member-list" id="member-list">
     <div class="rule"></div>
   </div>
 
   <h2 class="section-title sub-h2 mt-xl">Alumni &amp; Past Members</h2>
-  <div class="alumni-list">
-    <div class="alumni-row"><span>Alumnus Name</span><span class="faint-note">PhD 2020</span></div>
-    <div class="alumni-row"><span>Alumnus Name</span><span class="faint-note">PhD 2019</span></div>
-    <div class="alumni-row"><span>Alumnus Name</span><span class="faint-note">PhD 2018</span></div>
-    <div class="alumni-row"><span>Alumnus Name</span><span class="faint-note">MSc 2018</span></div>
-    <div class="alumni-row"><span>Alumnus Name</span><span class="faint-note">Postdoc 2017</span></div>
-    <div class="alumni-row"><span>Alumnus Name</span><span class="faint-note">PhD 2016</span></div>
+  <div class="alumni-list" id="alumni-list">
     <div class="rule"></div>
   </div>
 </main>
@@ -111,7 +66,7 @@
       <p>Department of Bioengineering, McGill University — Montréal, QC.</p>
     </div>
     <nav class="footer-nav">
-      <a href="index.html">Home</a><a href="research.html">Research</a><a href="people.html">People</a><a href="publications.html">Publications</a><a href="contact.html">Contact</a>
+      <a href="index.html">Home</a><a href="research.html">Research</a><a href="people.html">People</a><a href="publications.html">Publications</a><a href="news.html">News</a><a href="contact.html">Contact</a>
     </nav>
   </div>
   <div class="footer-bar"><div class="container">© 2026 Biosignals &amp; Systems Analysis Lab. All rights reserved.</div></div>
