@@ -1,0 +1,18 @@
+{
+  "members": [
+    { "photo": "images/dk-m1.jpg", "name": "Member Name", "role": "Postdoctoral Fellow", "interest": "Cerebral autoregulation & time-varying modelling." },
+    { "photo": "images/dk-m2.jpg", "name": "Member Name", "role": "PhD Candidate", "interest": "Physiological noise in resting-state fMRI." },
+    { "photo": "images/dk-m3.jpg", "name": "Member Name", "role": "PhD Candidate", "interest": "Tumour-growth modelling & optimal control." },
+    { "photo": "images/dk-m4.jpg", "name": "Member Name", "role": "PhD Student", "interest": "Data-driven models of glucose metabolism." },
+    { "photo": "images/dk-m5.jpg", "name": "Member Name", "role": "MSc Student", "interest": "Nonlinear system identification methods." },
+    { "photo": "images/dk-m6.jpg", "name": "Member Name", "role": "Research Assistant", "interest": "Signal processing & EEG analysis." }
+  ],
+  "alumni": [
+    { "name": "Alumnus Name", "note": "PhD 2020" },
+    { "name": "Alumnus Name", "note": "PhD 2019" },
+    { "name": "Alumnus Name", "note": "PhD 2018" },
+    { "name": "Alumnus Name", "note": "MSc 2018" },
+    { "name": "Alumnus Name", "note": "Postdoc 2017" },
+    { "name": "Alumnus Name", "note": "PhD 2016" }
+  ]
+}

@@ -1,0 +1,13 @@
+[
+  { "year": "2020", "authors": "Botvinik-Nezer, R., …, Kassinopoulos, M., …, Mitsis, G. D., et al.", "title": "Variability in the analysis of a single neuroimaging dataset by many teams,", "venue": "Nature 582: 84–88." },
+  { "year": "2020", "authors": "Mitsis, G. D., Christodoulakis, M., Anastasiadou, M., et al.", "title": "Multi-scale periodicities in the functional brain networks of patients with epilepsy,", "venue": "Human Brain Mapping 41(8): 2059–2076." },
+  { "year": "2019", "authors": "Kassinopoulos, M. and G. D. Mitsis.", "title": "Identification of physiological response functions to correct for fluctuations in resting-state fMRI,", "venue": "NeuroImage 202: 116150." },
+  { "year": "2019", "authors": "Kostoglou, K., Robertson, A. D., MacIntosh, B. J. and G. D. Mitsis.", "title": "A novel framework for estimating time-varying multivariate autoregressive models,", "venue": "IEEE Trans. Biomed. Eng. 66(11): 3257–3266." },
+  { "year": "2019", "authors": "Prokopiou, P., Pattinson, K. T. S., Wise, R. G. and G. D. Mitsis.", "title": "Modeling of dynamic cerebrovascular reactivity to spontaneous and externally induced CO₂ fluctuations,", "venue": "NeuroImage 186(2): 533–548." },
+  { "year": "2017", "authors": "Michmizos, K. P., Lindqvist, B., Wong, S., et al.", "title": "Computational neuromodulation: future challenges for deep brain stimulation,", "venue": "IEEE Signal Processing Magazine 34(2): 114–119." },
+  { "year": "2017", "authors": "Kostoglou, K., Michmizos, K. P., Stathis, P., et al.", "title": "Prediction of the Unified Parkinson's Disease Rating Scale improvement in deep brain stimulation,", "venue": "IEEE Trans. Biomed. Eng. 64(5): 1123–1130." },
+  { "year": "2015", "authors": "Loizides, C., Iacovides, D., Hadjiandreou, M. M., et al.", "title": "Model-based tumor growth dynamics in a mouse model of de novo carcinogenesis,", "venue": "PLoS One 10(12)." },
+  { "year": "2014", "authors": "Hadjiandreou, M. M. and G. D. Mitsis.", "title": "Mathematical modeling of tumor growth, drug-resistance, toxicity, and optimal therapy design,", "venue": "IEEE Trans. Biomed. Eng. 61(2): 415–425." },
+  { "year": "2009", "authors": "Mitsis, G. D., Markakis, M. G. and V. Z. Marmarelis.", "title": "Nonlinear modeling of glucose metabolism: comparison of compartmental with Volterra models,", "venue": "IEEE Trans. Biomed. Eng. 56(10): 2347–2358." },
+  { "year": "2004", "authors": "Mitsis, G. D., Poulin, M. J., Robbins, P. A. and V. Z. Marmarelis.", "title": "Nonlinear modeling of the dynamic effects of arterial pressure and CO₂ variations on cerebral blood flow,", "venue": "IEEE Trans. Biomed. Eng. 51: 1932–1943." }
+]
