@@ -561,75 +561,6 @@ h1, h2, h3{
   font-style: italic;
 }
 
-/* ---------- Contact page ---------- */
-.contact-topline{
-  border-top: 2px solid var(--link);
-}
-.contact-hero{
-  text-align: center;
-  padding: 88px 32px 72px;
-}
-.contact-title{
-  font-size: clamp(40px, 5vw, 66px);
-  line-height: 1;
-}
-.contact-grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 64px;
-  align-items: start;
-  padding-top: 0;
-}
-.contact-h2{
-  font-weight: 600;
-  font-size: 27px;
-  margin-bottom: 24px;
-}
-.contact-lede{
-  margin: 0 0 36px;
-  max-width: 46ch;
-  font-size: 17px;
-}
-.contact-form{
-  display: grid;
-  gap: 16px;
-  max-width: 460px;
-}
-.form-two{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px;
-}
-.field{
-  width: 100%;
-  padding: 15px 20px;
-  border-radius: 999px;
-  border: 1px solid var(--line-strong);
-  background: transparent;
-  color: var(--ink);
-  font-family: var(--body);
-  font-size: 15px;
-  outline: none;
-  transition: border-color .25s;
-}
-.field:focus{
-  border-color: var(--accent);
-}
-.field::placeholder{
-  color: var(--faint);
-}
-.field-area{
-  border-radius: 22px;
-  min-height: 130px;
-  resize: vertical;
-}
-.contact-form .pill{
-  justify-self: start;
-}
-.contact-photo{
-  height: 560px;
-}
-
 /* ---------- Placeholder image slot ---------- */
 .img-slot{
   position: relative;
@@ -731,7 +662,7 @@ h1, h2, h3{
 
 /* ---------- Responsive ---------- */
 @media (max-width: 900px){
-  .about-grid, .project-grid, .contact-grid, .director, .member-row{
+  .about-grid, .project-grid, .director, .member-row{
     grid-template-columns: 1fr;
   }
   .feature-grid{
@@ -802,9 +733,6 @@ h1, h2, h3{
   .container, .section{
     padding-left: 20px;
     padding-right: 20px;
-  }
-  .form-two{
-    grid-template-columns: 1fr;
   }
   .feature-grid{
     grid-template-columns: 1fr;
