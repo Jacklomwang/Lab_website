@@ -14,7 +14,6 @@ Static multi-page website. No build step, no frameworks — plain HTML, one CSS 
 ├── people.html              Director, current members, alumni
 ├── publications.html       Selected publications
 ├── news.html                Full lab news list
-├── contact.html             Contact form + details
 ├── data/
 │   ├── news.json            Lab news items (rendered on index.html and news.html)
 │   ├── publications.json    Publication entries (rendered on publications.html)
@@ -39,7 +38,6 @@ Drop image files into `images/` named to match the `<img>` references, e.g.:
 - `dk-dir.jpg` — director portrait
 - `dk-m1.jpg … dk-m6.jpg` — member photos
 - `pr-c1.jpg … pr-c4.jpg`, `pr-p1.jpg … pr-p4.jpg` — project figures
-- `dk-contact.jpg` — contact photo
 
 `owl-logo.png` and `lab-team.jpg` are already included. Any slot without a matching file shows a labelled placeholder.
 
