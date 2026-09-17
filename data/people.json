@@ -1,16 +1,21 @@
 {
   "members": [
-    { "photo": "images/dk-m1.jpg", "name": "Member Name", "role": "Postdoctoral Fellow", "interest": "Cerebral autoregulation & time-varying modelling." },
-    { "photo": "images/dk-m2.jpg", "name": "Member Name", "role": "PhD Candidate", "interest": "Physiological noise in resting-state fMRI." },
-    { "photo": "images/dk-m3.jpg", "name": "Member Name", "role": "PhD Candidate", "interest": "Tumour-growth modelling & optimal control." },
-    { "photo": "images/dk-m4.jpg", "name": "Member Name", "role": "PhD Student", "interest": "Data-driven models of glucose metabolism." },
-    { "photo": "images/dk-m5.jpg", "name": "Member Name", "role": "MSc Student", "interest": "Nonlinear system identification methods." },
-    { "photo": "images/dk-m6.jpg", "name": "Member Name", "role": "Research Assistant", "interest": "Signal processing & EEG analysis." }
+    { "photo": "images/people/dk-m2.jpg", "name": "Emad Askarinejad", "role": "PhD Student", "interest": "Physiological noise in resting-state fMRI." },
+    { "photo": "images/people/dk-m4.jpg", "name": "Guofeng (Olivia) Ye", "role": "PhD Student", "interest": "Data-driven models of glucose metabolism." },
+    { "photo": "images/people/wang.png", "name": "Jack Wang", "role": "PhD Student (Fast Track)", "interest": "Tumour-growth modelling & optimal control." },
+    { "photo": "images/people/dk-m4.jpg", "name": "Mary Miedema", "role": "PhD Student", "interest": "Data-driven models of glucose metabolism." },
+    { "photo": "images/people/dk-m4.jpg", "name": "Nikolas Constantinou", "role": "PhD Student", "interest": "Data-driven models of glucose metabolism." },
+    { "photo": "images/people/dk-m4.jpg", "name": "Oren Gurevitch", "role": "PhD Student", "interest": "Data-driven models of glucose metabolism." },
+    { "photo": "images/people/dk-m1.jpg", "name": "Rémi Dagenais", "role": "Postdoctoral Fellow", "interest": "Cerebral autoregulation & time-varying modelling." },
+    { "photo": "images/people/dk-m4.jpg", "name": "Sophia LoParco", "role": "PhD Student", "interest": "Data-driven models of glucose metabolism." },
+    { "photo": "images/people/hope.jpeg", "name": "Amanda Hope", "role": "MSc Student", "interest": "Amanda is a Master’s student in Biological and Biomedical Engineering at McGill University. Her research focuses on using wearable technologies and biomedical signal processing to investigate autonomic dysfunction in Long COVID. She is particularly interested in physiological signal analysis and developing wearable-based methods for monitoring health outside of the laboratory." },
+    { "photo": "images/people/xie.jpg", "name": "Andrew Xie", "role": "MSc Student", "interest": "Closed-loop identification of the chemoreflex." },
+    { "photo": "images/people/dk-m6.jpg", "name": "Member Name", "role": "Research Assistant", "interest": "Signal processing & EEG analysis." }
   ],
   "alumni": [
-    { "name": "Alumnus Name", "note": "PhD 2020" },
-    { "name": "Alumnus Name", "note": "PhD 2019" },
-    { "name": "Alumnus Name", "note": "PhD 2018" },
+    { "name": "Mohammad Torabi", "note": "PhD 2026" },
+    { "name": "Siyu Long", "note": "PhD 2026" },
+    { "name": "Xuanteng Yan", "note": "PhD 2026" },
     { "name": "Alumnus Name", "note": "MSc 2018" },
     { "name": "Alumnus Name", "note": "Postdoc 2017" },
     { "name": "Alumnus Name", "note": "PhD 2016" }

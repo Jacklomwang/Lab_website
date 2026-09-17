@@ -66,6 +66,7 @@
     var img = document.createElement('img');
     img.src = item.photo;
     img.alt = 'Photo';
+    img.onload = function(){ photo.classList.add('has-img'); };
     img.onerror = function(){ img.style.display = 'none'; };
     photo.append(img);
 

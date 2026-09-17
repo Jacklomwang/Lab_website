@@ -35,9 +35,11 @@ The **news, publications, and people (members/alumni) lists** are the exception:
 ## Adding photos
 Drop image files into `images/` named to match the `<img>` references, e.g.:
 - `dk-hero1.jpg … dk-hero3.jpg` — home image strip
-- `dk-dir.jpg` — director portrait
-- `dk-m1.jpg … dk-m6.jpg` — member photos
 - `pr-c1.jpg … pr-c4.jpg`, `pr-p1.jpg … pr-p4.jpg` — project figures
+
+Director and member photos go in `images/people/`:
+- `dk-dir.jpg` — director portrait
+- `dk-m1.jpg … dk-m6.jpg` — member photos (paths set per-entry in `data/people.json`)
 
 `owl-logo.png` and `lab-team.jpg` are already included. Any slot without a matching file shows a labelled placeholder.
 
